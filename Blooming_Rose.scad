@@ -23,16 +23,16 @@ stem_d = 6.8;
 
 // Uncomment each one of these, render, export to STL.
 // petals(s=1.2); // actually too big.. I just did a range.
-//petals(s=1.15);
+petals(s=1.15);
 //petals(s=1.1);
 //petals(s=1.05);
 //petals(s=1.0);
 //petals(s=0.95);
 //stem();
-leaves();
+//leaves();
 //rose_center(); 
 //base(w=48,l=48); // print in black..
-//base_container(w=48,l=48,h=48); // if you don't use a vase, print this.
+//base_container(w=48,l=48,h=48); // if you don't use a vase, print this.  Nano requires a little more h.. h=55 would do it.
 
 module leaves() {
 	translate([0,-40,0]) difference() {
